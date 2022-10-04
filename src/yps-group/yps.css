@@ -1,0 +1,15 @@
+.logo{
+    font-family: var(--font-yps);
+    color: 3;
+}
+.heros{
+    background: url('../assets/bg-home.png');
+    background-size: cover;
+    background-position: center;
+}
+h1, h2{
+    font-family: var(--font-yps);
+}
+.content h4{
+    font-family: var(--content);
+}

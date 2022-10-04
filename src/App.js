@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Ypsgroup from './yps-group/Ypsgroup';
+import './index.css'
+import Testimoni from './Testimoni/Testimoni';
+import Footer from './Footer/Footer';
+import PeoBatak from './PEO-BATAK/PeoBatak';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Ypsgroup/>}/>
+            <Route path='peo-batak' element={<PeoBatak/>}/>
+          </Routes>
+          <Testimoni/>
+          <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
