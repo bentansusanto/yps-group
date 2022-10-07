@@ -4,6 +4,7 @@ import './index.css'
 import Testimoni from './Testimoni/Testimoni';
 import Footer from './Footer/Footer';
 import PeoBatak from './PEO-BATAK/PeoBatak';
+import WeddingPackage from './WEDDING-PACKAGE/WeddingPackage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Ypsgroup/>}/>
             <Route path='peo-batak' element={<PeoBatak/>}/>
+            <Route path='wedding-package' element={<WeddingPackage/>}/>
           </Routes>
           <Testimoni/>
           <Footer/>
