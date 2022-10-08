@@ -14,7 +14,7 @@ const Aboutsection = () => {
                 <div className='space-y-2'>
                     {
                         content.map((val, idx) => (
-                            <p key={idx} className="text-[.9rem] lg:w-[80%] w-full text-[#a4a4a4]">{val}</p>
+                            <p key={idx} className="text-[.9rem] lg:w-[65%] w-full text-[#a4a4a4]">{val}</p>
                         ))
                     }
                 </div>

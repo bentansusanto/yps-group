@@ -3,3 +3,13 @@
     background-position: center;
     background-size: cover;
 }
+
+.quotes-section{
+    background: url('../assets/bg-quotes-package.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.quotes-content h4{
+    font-family: var(--font-yps);
+}

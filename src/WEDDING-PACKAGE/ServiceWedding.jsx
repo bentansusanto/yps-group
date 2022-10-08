@@ -20,7 +20,7 @@ const ServiceWedding = () => {
     ]
   return (
     <div className='mb-40'>
-        <div className="service-section grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:mx-40 md:mx-20 mx-28 justify-items-center">
+        <div className="service-section grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 lg:mx-40 md:mx-20 mx-10 justify-items-center">
             {
                 service.map((val,idx) =>(
                     <div key={idx} className="px-10 py-5">

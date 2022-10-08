@@ -6,8 +6,10 @@ const HeroWedding = () => {
   return (
     <div className='-mt-24 mb-40'>
         <div className="hero-section w-full h-[100vh] text-center py-[20rem] text-white">
-          <h1 className='md:text-[5.5rem] text-[4rem] lg:w-[60%] md:w-[70%] mx-auto'>{title}</h1>
-          <h4 className='md:text-[1.5rem] text-[1.2rem] mx-auto'>{subtitle}</h4>
+          <div className='mx-8'>
+            <h1 className='md:text-[5.5rem] text-[4rem] lg:w-[60%] md:w-[70%] mx-auto'>{title}</h1>
+            <h4 className='md:text-[1.5rem] text-[1.2rem] mx-auto'>{subtitle}</h4>
+          </div>
         </div>
     </div>
   )
